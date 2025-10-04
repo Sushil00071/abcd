@@ -119,7 +119,7 @@ export default function LyricsScreen() {
                             className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-wide will-change-transform"
                             style={{
                                 textShadow:
-                                    "0 0 30px rgba(255, 255, 255, 0.5), 0 0 60px rgba(255, 192, 203, 0.3)",
+                                    "0 0 30px rgba(255, 255, 255, 0.5), 0 0 60px rgba(255, 192, 203, 0.5)",
                             }}
                         >
                             {lyrics[currentLyric]}
@@ -155,3 +155,4 @@ export default function LyricsScreen() {
         </motion.div>
     )
 }
+
