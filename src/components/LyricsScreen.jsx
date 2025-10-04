@@ -147,7 +147,7 @@ export default function LyricsScreen() {
                         initial={{ opacity: 0, y: 50, scale: 0.8 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
-                        className="text-3xl md:text-4xl font-semibold px-4 text-center">
+                        className="text-3xl md:text-4xl  text-white font-semibold px-4 text-center">
                         For My Haseen Girl❤️
                     </motion.h2>
                 </motion.div>
@@ -155,4 +155,5 @@ export default function LyricsScreen() {
         </motion.div>
     )
 }
+
 
